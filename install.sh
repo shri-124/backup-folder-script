@@ -13,7 +13,7 @@ fi
 mkdir -p "$PREFIX"
 TMP="$(mktemp)"
 # Replace USERNAME and REPO below after you push your repo (step 4)
-RAW_URL="https://raw.githubusercontent.com/USERNAME/REPO/main/backup.sh"
+RAW_URL="https://raw.githubusercontent.com/shri-124/backup-folder-script/main/backup.sh"
 
 echo "Downloading backup.sh..."
 curl -fsSL "$RAW_URL" -o "$TMP"
